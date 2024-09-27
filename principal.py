@@ -1,5 +1,5 @@
 import cv2 #importanto a biblioteca opencv
-import numpy as np
+import pytesseract
 img = cv2.imread('C:\\Users\\dudaa\\OneDrive\\Documentos\\GitHub\\Projeto-Unipark\\IMAGENS\\Carros\\carro1.jpg') #criando uma variavel pra imagem e buscando ela
 
 cv2.imshow('carro 1', img) #dando um nome de cabeçalho para a telinha que vai exibir a img e mostrando a imagem na tela
